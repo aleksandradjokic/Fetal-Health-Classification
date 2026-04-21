@@ -1,6 +1,11 @@
 # Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -9,9 +14,11 @@ __pycache__/
 venv/
 env/
 .env/
+.venv/
 
 # OS-specific files
 .DS_Store
+Thumbs.db
 
 # IPython history and log files
 profile_default/
@@ -20,7 +27,13 @@ ipython_log.txt
 # Dataset files
 fetal_health.csv
 fetal_health_balanced.csv
+fetal_health_balanced_train.csv
 
+# Model output files
+*.pkl
+*.joblib
+*.h5
+*.model
 
 # Other temporary files
 *.tmp
